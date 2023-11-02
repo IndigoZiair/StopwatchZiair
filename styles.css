@@ -1,0 +1,52 @@
+:root {
+    --blue: #00ccff;
+    --grey: #f3f3f3;
+    --white: #fff;
+    --orange: #205e94; /* Define --orange variable for background color */
+    --black: #000; /* Define --black variable for text color */
+  }
+  
+  .buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons button {
+    width: 120px;
+    height: 45px;
+    background-color: var(--orange); /* Use the --orange variable for background color */
+    color: var(--white); /* Use the --white variable for text color */
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  body {
+    background: var(--blue); /* Use the --blue variable for background color */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+  }
+  
+  .wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: var(--black); /* Use the --black variable for text color */
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+  }
+  
+  #seconds, #tens {
+    font-size: 2em;
+  }
+  
